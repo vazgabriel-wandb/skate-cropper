@@ -1,9 +1,15 @@
+# Python/Environment
 venv/
 __pycache__/
 .env
-*.mp4
-*.avi
+
+# Generated highlights
+highlights/*
+
+# W&B
 wandb/
 artifacts/
+
+# Models
 trick_classifier.pkl
 yolov8n-pose.pt
